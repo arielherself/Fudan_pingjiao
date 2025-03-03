@@ -11,6 +11,7 @@ with import <nixpkgs> {
                             hash = "sha256-auf05yjReOIKlOHHKtn2igE87FZJSBT6PlGXg6FyCLc=";
                         };
                         postInstall = null;
+						dontPatch = true;
                         dontConfigure = true;
                         nativeCheckInputs = [];
                     });
